@@ -125,7 +125,7 @@
             var A = Math.round(Math.random()*5);
             var B = Math.round(Math.random()*12);
             var C = Math.round(Math.random()*9);
-            var Out = C*2+B/2-A;
+            var Out = C+B/2-A;
             var trial = [count,A,B,C,Out];
             dataSet.push(trial);
         }
