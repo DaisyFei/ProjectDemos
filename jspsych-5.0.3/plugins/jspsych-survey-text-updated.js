@@ -74,7 +74,7 @@ jsPsych.plugins['survey-text-updated'] = (function() {
       'id': 'jspsych-survey-text-next',
       'class': 'jspsych-btn jspsych-survey-text'
     }));
-    $("#jspsych-survey-text-next").html('Submit Answers');
+    $("#jspsych-survey-text-next").html('Submit Answer');
     var appended = false;
     $("#jspsych-survey-text-next").click(function() {
           // measure response time
