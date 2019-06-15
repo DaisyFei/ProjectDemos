@@ -137,7 +137,7 @@
    var instruction_screen_1 = {
         type: "text",
         text: function(){
-            return '<center><br><br>Welcome to the experiment!<br>Please read all instructions carefully. </center><p style="margin-left: 20%; margin-right: 20%; text-align:left;"><br><br>This experiment will ask you to predict an outcome number from three numbers. On each trial, you will see the numbers presented in the following way. <br><br><center><img src="images/inst1.png" style="width:800px;"></center><br><br><p style="margin-left: 20%; margin-right: 20%; text-align:left;">The three numbers are combined according to a fixed rule, and please try your best on learning the rule from each trial. You will be paid a bonus if you achieve high accuracy in predicting the outcome number. There will be 50 trials total. <br>When you are finished, you will get a code. Please copy the code for your payment in M-turk. <br><br>Press any key to continue';
+            return '<center><br><br>Welcome to the experiment!<br>Please read all instructions carefully. </center><p style="margin-left: 20%; margin-right: 20%; text-align:left;"><br><br>This experiment will ask you to predict an outcome number from three numbers. On each trial, you will see the numbers presented in the following way. <br><br><center><img src="images/inst1.PNG" style="width:800px;"></center><br><br><p style="margin-left: 20%; margin-right: 20%; text-align:left;">The three numbers are combined according to a fixed rule, and please try your best on learning the rule from each trial. You will be paid a bonus if you achieve high accuracy in predicting the outcome number. There will be 50 trials total. <br>When you are finished, you will get a code. Please copy the code for your payment in M-turk. <br><br>Press any key to continue';
         }
     };
     
@@ -152,7 +152,7 @@
 
 //Practice
 
-    pset = [[3,2,6,10],[1,3,5,10.5],[7,4,1,-3]]
+    pset = [[3,2,6,4],[1,3,5,5.5],[7,4,1,-4]]
     shuffle(pset)  
     
     for (var p = 0; p < pset.length; p++){
